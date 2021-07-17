@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Signup from "./Signup"
 import Login from "./Login"
+import Logout from "./Logout"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Signup />
         <Login></Login>
+        <Logout></Logout>
         <a 
           className="App-link"
           href="https://reactjs.org"
